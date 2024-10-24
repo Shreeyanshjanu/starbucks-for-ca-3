@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .menu-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .item-details h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .item-details p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .menu-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .menu-item img {
+                margin: 0 auto 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-container">
+        <h1>Our Menu</h1>
+
+        <div class="menu-item">
+            <img src="images/1.png" alt="Menu Item 1">
+            <div class="item-details">
+                <h2>Brown coffe</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas reiciendis dignissimos quam veritatis totam quis ipsa ea adipisci blanditiis ducimus similique nostrum laudantium, expedita, dolores qui autem aspernatur aliquam.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/2.png" alt="Menu Item 2">
+            <div class="item-details">
+                <h2>Pink Coffee</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo et laudantium impedit aliquid sunt sapiente omnis alias modi, deleniti quidem officia veniam mollitia sequi blanditiis explicabo voluptate, exercitationem itaque quibusdam.<p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/3.png" alt="Menu Item 3">
+            <div class="item-details">
+                <h2>Black Coffee</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum expedita porro ea sint voluptate in repudiandae sequi reprehenderit provident tenetur nesciunt debitis rerum nemo possimus neque, ducimus, deserunt, incidunt nam.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h1><a href="index.html">BACK TO MAIN PAGE</a></h1>
+
+</body>
+
+</html>
